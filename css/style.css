@@ -1,0 +1,184 @@
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.stretch {
+    width:100%;
+    height:auto;
+}
+
+intro {
+  background-color: grey;
+  width: 10px;
+  border: 1px solid:black;
+  text-align: center;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:75px;
+    display: block;
+    padding: 5px 10px;
+
+}
+
+/*h2{
+    color:blue;
+    font-family: arial;
+    text-align: center;
+}
+
+h3{
+    color:brown;
+    font-family:times;
+    text-align: center;
+}
+
+h4{
+    color:brown;
+    font-family:fantasy;
+    text-align: center;
+}*/
+
+/*
+#middle {
+    width: 250px;
+    margin: 0 auto;
+    color: #cc66cc;
+    font-family: fantasy;
+}
+
+#bottom {
+    width: 250px;
+    margin: 0 auto;
+    color:#567444;
+    font-family: cursive;*/
+}
+
+#colom{
+    height: 50px;
+    width: 120px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+    border-style: solid;
+    border-width:2px;
+    border-radius:5px;
+    margin:auto;
+    text-align:center;
+    }
+
+p{
+    text-align: center;
+    color:grey;
+    font-family: serif;
+}
+
+a {
+	text-decoration: none;
+	color:#3D59AB;
+	font-family: Verdana, sans-serif;
+}
+
+span {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+#navigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#nav2 {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+
+
+
+#house{
+    width: 250px;
+    margin: 0 auto;
+    color: #cc66cc;
+    font-family: fantasy;
+}
+
+#imgpack {
+width:30%;
+float:left;
+margin:1.66%;
+
+}
