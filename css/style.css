@@ -13,6 +13,7 @@
     height:auto;
 }
 
+/*navigationbar*/
 #navigationbar {
     list-style-type: none;
     margin: 0;
@@ -27,6 +28,21 @@
 #nav2 {
     float: left;
 }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+
 
 intro {
   background-color: grey;
@@ -66,30 +82,6 @@ p {
     font-family: serif;
 }
 
-.workpics {
-  padding-top: 70px;
-  padding-bottom: 60px;
-  color:grey;
-  text-align:center;
-  font-family: serif;
-}
-
-
-
-/*
-#middle {
-    width: 250px;
-    margin: 0 auto;
-    color: #cc66cc;
-    font-family: fantasy;
-}
-
-#bottom {
-    width: 250px;
-    margin: 0 auto;
-    color:#567444;
-    font-family: cursive;
-}*/
 
 #colom{
     height: 50px;
@@ -127,65 +119,39 @@ img {
 }
 
 
+.woonkamer {
+  width: 65%;
+  margin 20px auto;
 
-
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
 }
 
 
-
-
-div.img {
-    border: 1px solid #ccc;
-}
-
-div.img:hover {
-    border: 1px solid #777;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-* {
-    box-sizing: border-box;
+.box1 {
+  columns: 459px;
+  float: left;
+  outline: 1px solid white;
+  border:5px;
+  padding: 1px;
+  width: 50%;
+  padding-left: 100px;
 }
 
 
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
+.box2 {
+  columns: 459px;
+  float: right;
+  outline: 1px solid white;
+  border:5px;
+  padding: 1px;
+  width: 50%;
+  padding-left: 100px;
 }
 
+.combar {
+padding-left: 100px;
+padding-top: 50px;
 
 
-
-#house{
-    width: 250px;
-    margin: 0 auto;
-    color: #cc66cc;
-    font-family: fantasy;
 }
 
 
