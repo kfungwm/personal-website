@@ -1,103 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css"></style>
-	<link rel="stylesheet" href="css/style.css">
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="includes/bootstrap.css">
+  	<link rel="stylesheet"  href="includes/style.css">  
 	<title>Projects</title>
 </head>
 <body>
 
-	<ul id="navigationbar">
-		<li id="nav2"><a href="index.html">Home</a></li>
-		<li id="nav2"><a href="profile.html">Profile</a></li>
-		<li id="nav2"><a href="photos.html">Gallery</a></li>
-		<li id="nav2"><a href="projects.html">Projects</a></li>
-    	<li id="nav2"><a href="contact.html">Contact</a></li>
-	</ul>
+	<nav class="navbar navbar-default navbar-inverse">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand navbar-left" style="margin-left:30px" href="index.html">Home</a>
+	    </div>
 
-	<h2>Projects</h2>
+		<div class="collapse navbar-collapse navbar-right" style="margin-right:30px" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	      	<li><a href="profile.html">Profile</a></li>
+	        <li><a href="photos.html">Photos</a></li>
+	        <li><a href="projects.html">Projects</a></li>
+	        <li><a href="contact.html">Contact</a></li>
+	       </ul>
+	       </li>
+	      </ul>
+	  	</nav>
+	    </div>		     
+	   </div>
+	</nav>
 
-	<div class="onderwerp">
-		<p>Made some projects what I really like</p>
-	</div>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Projects</h2>
+		  
+    </div>
 
-	<div class="projectsintro">
-		<img src="images/front.png">
+    <div class="row">
+		<div class="col-xs-12 col-md-8">
+			<div class="thumbnail">	
+		  		<a href="images/front.png" target="_blank">
+				<img src="images/front.png"></a>
 
-
-		<p>Few months ago we finally can buy a apartment.
-		I am designing my new house.
-		You will see some draft of the apartment.</p>
-	</div>	
-
-
-
-
-	<div class="woonkamer" style="position:relative">
-		<a href="images/keuken.jpg" target="_blank">
-		<img src="images/keuken.jpg" alt="Kitchen" width="200" height="auto"></a>
-	</div>
-
-	<div class="woonkamer" style="position:relative">
-		<a href="images/badkamer.jpg" target="_blank">
-		<img src="images/badkamer.jpg" alt="bathroom" width="200" height="auto"></a>
-	</div>
-
-
-
-<!-- 
-
-	<div class="woonkamer" style="position:relative">
-		<div class="livingroom">
-			<p>
-				Designed the livingroom by Sketchup.
-				The Kitchen I put all the furniture.
-			</p>
-
-			<a href="images/keuken.jpg" target="_blank">
-			<img src="images/keuken.jpg" alt="Kitchen" width="200" height="auto"></a>
+				<p>I am designed my new house.
+				I used Sketchup to made it</p>
+			</div>
 		</div>
-
-	</div>
-
-	<div class="woonkamer">
-		<div class"bathroom">
-			<p>
-				The bathroom is designed by Sketchup.
-			</p>
-
-			<a href="images/badkamer.jpg" target="_blank">
-			<img src="images/badkamer.jpg" alt="bathroom" width="200" height="auto"></a>
-		</div>	
-	</div>		
-
-
- -->
-
-
-
-
-
-
-	<!-- <div class="woonkamer">
-		<div class="box1">
-			<p>
-				Designed the livingroom by Sketchup.
-				The Kitchen I put all the furniture.
-			</p>
-			<a href="images/keuken.jpg" target="_blank">
-			<img src="images/keuken.jpg" alt="Kitchen" width="200" height="auto"></a>
+	  	<div class="col-xs-6 col-md-2">
+	  		<div class="thumbnail">
+	  			<a href="images/keuken.jpg" target="_blank">
+				<img src="images/keuken.jpg"></a>
+			</div>
 		</div>
-
-		<div class="box2">
-			<p>
-				The bathroom is designed by Sketchup.
+		<div class="col-xs-6 col-md-2">
+			<div class="thumbnail">
 				<a href="images/badkamer.jpg" target="_blank">
-			<img src="images/badkamer.jpg" alt="bathroom" width="200" height="auto"></a>
-			</p>
+				<img src="images/badkamer.jpg"></a>
+			</div>
 		</div>
-	</div> -->
+		<div class="col-xs-6 col-md-2">
+			<div class="thumbnail">
+				<a href="images/woonkamer.jpg" target="_blank">
+				<img src="images/woonkamer.jpg"></a>
+			</div>
+	  	</div>
+	</div>
 
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
 

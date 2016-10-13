@@ -1,45 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<style type="text/css"></style>
-		<link rel="stylesheet" href="css/style.css">
-		<title>Contact</title>
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="includes/bootstrap.css">
+    <link rel="stylesheet"  href="includes/style.css">  
+	<title>Contact</title>
 
 </head>
 <body>
 
-	<ul id="navigationbar">
-		<li id="nav2"><a href="index.html">Home</a></li>
-		<li id="nav2"><a href="profile.html">Profile</a></li>
-		<li id="nav2"><a href="photos.html">Gallery</a></li>
-		<li id="nav2"><a href="projects.html">Projects</a></li>
-    <li id="nav2"><a href="contact.html">Contact</a></li>
-	</ul>
+  <nav class="navbar navbar-default navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand navbar-left" style="margin-left:30px" href="index.html">Home</a>
+      </div>
+
+    <div class="collapse navbar-collapse navbar-right" style="margin-right:30px" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="photos.html">Photos</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+         </ul>
+         </li>
+        </ul>
+      </nav>
+      </div>         
+     </div>
+  </nav>
 
 
-	<div class="intro">
-		<h2>Contact</h2>
-	</div>
-
-  	<div class="onderwerp">
-    	<p>I'd love your feedback!</p>
-  	</div>
-
-	<div class="combar">
-	  <form action="URL to form script" method="POST">
-	    Your name: <br>
-	    <input type="text" name="realname"><br>
-	    <br>
-	    Your email: <br>
-	    <input type="text" name="email"><br>
-	    <br>
-	    Your comments: <br>
-	    <textarea name="comments" rows="15" cols="50"></textarea><br><br>
-	    <input type="submit" value="Send">
-	  </form>
-	</div>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Contact</h2>
+      <p>If you have any questions? Please feel free to ask!</p>	  
+  </div>
 
 
 
+  <div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-4">
+      <p><img src="images/icons/location.png" width="20" height="auto">  Amsterdam</p>
+
+      <p><img src="images/icons/phone.png" width="20" height="auto">  +31 6 42 738 738</p>
+
+      <p><img src="images/icons/email.png" width="20" height="auto">  kevinfung87@gmail.com</p>
+      <br>
+      <br>
+      <p><a href="https://github.com/kfungwm" target="_blank"><img src="images/icons/github.png" width="40" height="auto"></a>  <a href="https://nl.linkedin.com/in/kevin-fung-7b549449" target="_blank"><img src="images/icons/linkedin.png" width="40" height="auto"></a> </p>
+
+  </div>
+
+  <div class="col-md-5">
+    <form action="URL to form script" method="POST">
+      Your name: <br>
+      <input type="text" name="realname"><br>
+      <br>
+      Your email: <br>
+      <input type="text" name="email" cols="40"><br>
+      <br>
+      Your comments: <br>
+      <textarea name="comments" rows="6" cols="40"></textarea><br><br>
+      <input type="submit" value="Send">
+      <br><br>
+    </form>
+  </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
