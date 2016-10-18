@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    style(type='text/css').
+    link(rel='stylesheet', href='includes/bootstrap.css')
+    link(rel='stylesheet', href='includes/style.css')
+    title Profile
+  body
+    nav.navbar.navbar-default.navbar-inverse
+      .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.navbar-left(style='margin-left:30px', href='index.pug') Home
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse.navbar-right(style='margin-right:30px')
+          ul.nav.navbar-nav
+            li
+              a(href='profile.pug') Profile
+            li
+              a(href='photos.pug') Photos
+            li
+              a(href='projects.pug') Projects
+            li
+              a(href='contact.pug') Contact
+    .container
+      .jumbotron
+        h2 Profile
+        p About me
+      .row
+        .col-md-1
+        .col-md-5
+          .thumbnail
+            img(src='images/profile.jpg')
+        .col-md-5
+          p
+            | I am Kevin Fung, 28 years old and live in Amsterdam. In 2013 I graduated my Bachelor Business Administration (Trade Management Asia). I worked few years and I am following Full-Stack Web Development at the New York Code + Design Academy.
+          p
+          p I have leaerned this skills:
+          ul
+            li HTML
+            li CSS
+            li Javascript
+            li Photoshop
+            li Illustrator
+            li Sketchup
+          p
+            | If you also want to follow this Intensive Web Development course please:
+          #colom
+            a(href='http://www.nycda.com')
+              | Click here for
+              span NYCDA!
+        script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')

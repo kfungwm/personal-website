@@ -1,0 +1,74 @@
+doctype html
+html
+  head
+    style(type='text/css').
+    |
+    link(rel='stylesheet', href='includes/bootstrap.css')
+    |   &#x9;
+    link(rel='stylesheet', href='includes/style.css')
+    |
+    | &#x9;
+    title Projects
+  body
+    nav.navbar.navbar-default.navbar-inverse
+      .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+            span.sr-only Toggle navigation
+            | &#x9;
+            span.icon-bar
+            | &#x9;
+            span.icon-bar
+            | &#x9;
+            span.icon-bar
+          | &#x9;
+          a.navbar-brand.navbar-left(style='margin-left:30px', href='index.pug') Home
+        | &#x9;&#x9;
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse.navbar-right(style='margin-right:30px')
+          ul.nav.navbar-nav
+            li
+              a(href='profile.pug') Profile
+            | &#x9;
+            li
+              a(href='photos.pug') Photos
+            | &#x9;
+            li
+              a(href='projects.pug') Projects
+            | &#x9;
+            li
+              a(href='contact.pug') Contact
+    | &#x9;    &#x9;&#x9;
+    | &#x9;
+    | &#x9;
+    |
+    .container
+      .jumbotron
+        h2 Projects
+      |
+      .row
+        .col-xs-12.col-md-8
+          .thumbnail
+            a(href='images/front.png', target='_blank')
+              img(src='images/front.png')
+            | &#x9;&#x9;&#x9;&#x9;
+            p
+              | I am designed my new house.
+              | I used Sketchup to made it
+        | &#x9;  &#x9;
+        .col-xs-6.col-md-2
+          .thumbnail
+            a(href='images/keuken.jpg', target='_blank')
+              img(src='images/keuken.jpg')
+        | &#x9;&#x9;
+        .col-xs-6.col-md-2
+          .thumbnail
+            a(href='images/badkamer.jpg', target='_blank')
+              img(src='images/badkamer.jpg')
+        | &#x9;&#x9;
+        .col-xs-6.col-md-2
+          .thumbnail
+            a(href='images/woonkamer.jpg', target='_blank')
+              img(src='images/woonkamer.jpg')
+      script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+      script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')

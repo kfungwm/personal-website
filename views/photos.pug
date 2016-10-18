@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    style(type='text/css').
+    link(rel='stylesheet', href='includes/bootstrap.css')
+    link(rel='stylesheet', href='includes/style.css')
+    title Photo Blog
+  body
+    nav.navbar.navbar-default.navbar-inverse
+      .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.navbar-left(style='margin-left:30px', href='index.pug') Home
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse.navbar-right(style='margin-right:30px')
+          ul.nav.navbar-nav
+            li
+              a(href='profile.pug') Profile
+            li
+              a(href='photos.pug') Photos
+            li
+              a(href='projects.pug') Projects
+            li
+              a(href='contact.pug') Contact
+    .container
+      .jumbotron
+        h2 Photo's
+        p I love to take photos with my camera
+      .row
+        .col-lg-4.col-md-6
+          .thumbnail
+            img(src='http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg')
+        .col-lg-4.col-md-6
+          .thumbnail
+            img(src='http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg')
+        .col-lg-4.col-md-6
+          .thumbnail
+            img(src='http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg')
+        .col-lg-4.col-md-6
+          .thumbnail
+            img(src='http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg')
+        .col-lg-4.col-md-6
+          .thumbnail
+            img(src='http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg')
+        .col-lg-4.col-md-6
+          .thumbnail
+            img(src='http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg')
+        .col-lg-4.col-md-6
+          .thumbnail
+            img(src='http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg')
+        .col-lg-4.col-md-6
+          .thumbnail
+            img(src='http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg')
+        .col-lg-4.col-md-6
+          .thumbnail
+            img(src='http://c2.staticflickr.com/8/7579/15482110477_0b0e9e5421_b.jpg')
+    script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')

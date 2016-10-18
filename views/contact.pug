@@ -1,0 +1,106 @@
+doctype html
+html
+  head
+    style(type='text/css').
+    |
+    link(rel='stylesheet', href='includes/bootstrap.css')
+    |
+    link(rel='stylesheet', href='includes/style.css')
+    |
+    | &#x9;
+    title Contact
+  body
+    nav.navbar.navbar-default.navbar-inverse
+      .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+            span.sr-only Toggle navigation
+            |
+            span.icon-bar
+            |
+            span.icon-bar
+            |
+            span.icon-bar
+          |
+          a.navbar-brand.navbar-left(style='margin-left:30px', href='index.pug') Home
+        |
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse.navbar-right(style='margin-right:30px')
+          ul.nav.navbar-nav
+            li
+              a(href='profile.pug') Profile
+            |
+            li
+              a(href='photos.pug') Photos
+            |
+            li
+              a(href='projects.pug') Projects
+            |
+            li
+              a(href='contact.pug') Contact
+    |
+    |
+    |
+    |
+    .container
+      .jumbotron
+        h2 Contact
+        |
+        p If you have any questions? Please feel free to ask!
+      |
+      .row
+        .col-md-3
+        |
+        .col-md-4
+          p
+            img(src='images/icons/location.png', width='20', height='auto')
+            |   Amsterdam
+          |
+          p
+            img(src='images/icons/phone.png', width='20', height='auto')
+            |   +31 6 42 738 738
+          |
+          p
+            img(src='images/icons/email.png', width='20', height='auto')
+            |   kevinfung87@gmail.com
+          |
+          br
+          |
+          br
+          |
+          p
+            a(href='https://github.com/kfungwm', target='_blank')
+              img(src='images/icons/github.png', width='40', height='auto')
+            |
+            a(href='https://nl.linkedin.com/in/kevin-fung-7b549449', target='_blank')
+              img(src='images/icons/linkedin.png', width='40', height='auto')
+        |
+        .col-md-5
+          form(action='URL to form script', method='POST')
+            | Your name:
+            br
+            |
+            input(type='text', name='realname')
+            br
+            |
+            br
+            |       Your email:
+            br
+            |
+            input(type='text', name='email', cols='40')
+            br
+            |
+            br
+            |       Your comments:
+            br
+            |
+            textarea(name='comments', rows='6', cols='40')
+            br
+            br
+            |
+            input(type='submit', value='Send')
+            |
+            br
+            br
+        script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')
